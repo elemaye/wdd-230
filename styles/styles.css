@@ -47,7 +47,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
   header {
-    grid-column: 1/7;
+    grid-column: 1/6;
     grid-row: 1/2;
   }
   img {
