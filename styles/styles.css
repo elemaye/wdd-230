@@ -51,14 +51,14 @@ body {
   }
   #home-links {
     grid-row: 2/3;
-    grid-column: 1/7;
+    grid-column: 1/6;
     border: 3em;
   }
   footer {
     background-color: #F25F70;
     color: white;
     grid-row: 3/4;
-    grid-column: 1/7;
+    grid-column: 1/6;
     text-align: center;
     padding: 1em;
   }
