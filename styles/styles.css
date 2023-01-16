@@ -45,7 +45,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr .5fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 1em 5em 1em 5em;
+    padding: 1em 15em 1em 15em;
   }
   header {
     grid-column: 1/6;
