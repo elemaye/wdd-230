@@ -14,7 +14,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr .5fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 1em 15em 1em 15em;
+    padding: 1em 10em 1em 10em;
   }
   h1 {
     font-family: "Oswald", sans-serif;
