@@ -10,7 +10,7 @@ body {
   h1 {
     font-family: "Oswald", sans-serif;
     font-size: 1.5em;
-    background-color: #F25F70;
+    background-color: #600047;
     color: white;
     padding: 1em;
     letter-spacing: 2px;
@@ -25,7 +25,7 @@ body {
     color: black;
   }
   a:hover {
-    color: #F25F70;
+    color: #600047;
     text-decoration: underline;
   }
   h2 {
@@ -65,7 +65,7 @@ body {
     border: 3em;
   }
   footer {
-    background-color: #F25F70;
+    background-color: #600047;
     color: white;
     grid-row: 3/4;
     grid-column: 1/6;
