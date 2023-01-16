@@ -76,10 +76,10 @@ body {
   #home-footer a:hover {
     color: black;
   }
-  img {
+  /*img {
     max-height: 10em;
     padding: 1em 6.5em 0em 6.5em;
-  }
+  } */
   header a{
     color: white;
   }
