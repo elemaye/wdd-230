@@ -15,7 +15,7 @@ body {
     padding: 1em;
     letter-spacing: 2px;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 15px;
   }
   a {
     text-decoration: none;
@@ -52,7 +52,7 @@ body {
     grid-row: 1/2;
   }
   img {
-    border-radius: 25px;
+    border-radius: 15px;
     max-height: 10em;
   }
   #pic-of-ember {
@@ -61,7 +61,7 @@ body {
   }
   #home-links {
     grid-row: 2/3;
-    grid-column: 1/6;
+    grid-column: 2/5;
     border: 3em;
   }
   footer {
@@ -71,7 +71,7 @@ body {
     grid-column: 1/6;
     text-align: center;
     padding: 1em;
-    border-radius: 25px;
+    border-radius: 15px;
   }
   #home-footer a {
     color: white;
