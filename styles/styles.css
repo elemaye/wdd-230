@@ -53,9 +53,11 @@ body {
   }
   img {
     border-radius: 25px;
+    max-height: 10em;
+  }
+  #pic-of-ember {
     grid-row: 1/2;
     grid-column: 1/2;
-    max-height: 10em;
   }
   #home-links {
     grid-row: 2/3;
