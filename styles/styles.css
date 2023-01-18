@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Oswald:wght@300&display=swap');
 
+/*Colors & fonts*/
 body {
     background: white;
     font-family: "Oswald", sans-serif;
@@ -44,6 +45,33 @@ footer {
     padding: 1em;
     border-radius: 15px;
 }
-#home-footer a, #home-footer a:hover, footer p {
+#home-footer a, footer p {
     color: white;
+    text-decoration: none;
+}
+#home-footer a:hover {
+    text-decoration: underline;
+}
+/*Grid & Layout*/
+#homepage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr .5fr;
+    padding: 1em 10em 1em 10em;
+}
+header {
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+header img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#home-links {
+    grid-column: 2/5;
+    grid-row: 2/3;
+}
+footer {
+    grid-column: 1/6;
+    grid-row: 3/4;
 }
