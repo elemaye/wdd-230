@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Oswald:wght@300&display=swap');
 
+body {
+    background: white;
+    font-family: "Oswald", sans-serif;
+    color: #444;
+}
 h1 {
     font-family: "Oswald", sans-serif;
     font-size: 1.5em;
