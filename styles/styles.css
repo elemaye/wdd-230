@@ -39,6 +39,6 @@ footer {
     padding: 1em;
     border-radius: 15px;
 }
-#home-footer a, #home-footer a:hover {
+#home-footer a, #home-footer a:hover, footer p {
     color: white;
 }
