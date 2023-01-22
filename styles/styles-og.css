@@ -12,10 +12,6 @@ body {
     background-color: white;
     font-family: "Oswald", sans-serif;
     color: #444;
-    display: grid;
-    grid-template-rows: 1fr 1fr .5fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 1em 10em 1em 10em;
   }
 h1 {
     font-family: "Oswald", sans-serif;
@@ -37,7 +33,7 @@ h1 {
   a:hover {
     color: #9E0031;
     text-decoration: underline;
-  } */
+  }
  h2 {
     font-family: "Oswald", sans-serif;
     color: black;
@@ -50,7 +46,13 @@ h1 {
   }
   span {
     font-family: "Exo 2", sans-serif;
-  } */
+  }
+  .homepage {
+    display: grid;
+    grid-template-rows: 1fr 1fr .5fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 1em 10em 1em 10em;
+  }
   header {
     grid-column: 1/6;
     grid-row: 1/2;
